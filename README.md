@@ -18,6 +18,7 @@ Also use L2 normalizer to create an unit vector in matrices
 # Using:
 
 Just pass the XML in the right format, in function create_tf_idf in the run.py file.
+
 run.py file is the entry point for the project.
 
 # Dependencies:
@@ -34,3 +35,7 @@ pip install -U scikit-learn
 Scipy library:
 
 pip install Scipy
+
+Numpy library:
+
+pip install numpy

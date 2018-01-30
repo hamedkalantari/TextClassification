@@ -15,7 +15,7 @@ Create term frequency and inverse document frequency matrice
 Also use L2 normalizer to create an unit vector in matrices
 
 
-# Dependencies:
+# Using:
 
 Just pass the XML in the right format, in function create_tf_idf in the run.py file.
 run.py file is the entry point for the project.

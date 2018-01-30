@@ -8,12 +8,17 @@ Sentence and word tokenizer
 
 Creating a vector index of each words in a sentence and all the text
 
-Creating frequency matrix
+Creating frequency matrice
 
-it's for now :)
+Create term frequency and inverse document frequency matrice
 
-more will be added
+Also use L2 normalizer to create an unit vector in matrices
 
+
+# Dependencies:
+
+Just pass the XML in the right format, in function create_tf_idf in the run.py file.
+run.py file is the entry point for the project.
 
 # Dependencies:
 

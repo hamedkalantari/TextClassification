@@ -1,0 +1,19 @@
+class VectorNormalizer:
+    def __init__(self, matrice):
+        self.main_matrice = matrice
+        self.l2_norm_matrice = []
+        self.l2_normalizer()
+
+    def unit_vector_calculator(self, vector):
+        e_sum = 0
+        unit_vector = []
+        for i in vector:
+            e_sum += (i * i)
+        magnitude = e_sum ** 0.5
+        for i in vector:
+            unit_vector.append(i / magnitude)
+        return unit_vector
+
+    def l2_normalizer(self):
+        for row in self.main_matrice:
+            self.l2_norm_matrice.append(self.unit_vector_calculator(row))
